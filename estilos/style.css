@@ -1,0 +1,194 @@
+@charset "uft-8";
+/*Documento de estilos CSS*/
+
+body {
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/06/14/46077/white-aesthetic-05.jpg');
+    background-size: auto;
+    font-family: 'Segoe UI';
+}
+
+#cabecera {
+    color: white;
+    background-color: #066163;
+    opacity: 0.9;
+    height: 25px;
+    max-width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: x-small;
+}
+
+.navegacionPrin {
+    padding: 10px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.navegacionPrin li a {
+    text-decoration: none;
+    color: black;
+    padding: 77px;
+    display: block;
+}
+
+.navegacionPrin li {
+    display: inline-table;
+    text-align: center;
+    background-color: #99A3A4;
+    color: black;
+}
+
+.navegacionPrin li a:hover {
+    background: #066163;
+    opacity: 0.9;
+    color: #ffffff;
+}
+
+#contenido {
+    max-width: 90%;
+    margin: auto;
+    min-height: 500px;
+}
+
+#contenidoPrin {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: .5em;
+    padding-left: 30px;
+    padding-top: 15px;
+    min-height: 500px;
+
+}
+
+#titulo {
+    text-align: center;
+}
+
+#imagen {
+    float: right;
+    max-width: 300px;
+    margin-top: 50px;
+}
+
+#piePrin {
+    background-color: #066163;
+    opacity: 0.5;
+    clear: both;
+    margin-top: 30px;
+    height: 200px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font: normal 16px arial;
+}
+
+h3 {
+    color: #154360;
+    font: normal 22px arial;
+    font-weight: bold;
+}
+
+h4 {
+    color: #ffffff;
+    font: normal 20px arial;
+}
+
+
+#tabladeestudios {
+    width: 100%;
+}
+
+#tabladeestudios tr:hover {
+    background-color: #066163;
+    opacity: 0.5;
+}
+
+#tabladeestudios th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #066163;
+    color: white;
+}
+
+.gridcontenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.gridcontenedor div {
+    text-align: center;
+    border: #154360 1px;
+}
+
+
+.container {
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background: #fff;
+}
+
+ul.slider li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu {
+    text-align: center;
+    margin: 40px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    color: 066163;
+    background-color: white;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+
+
+
